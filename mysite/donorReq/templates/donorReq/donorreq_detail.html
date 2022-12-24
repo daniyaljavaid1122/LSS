@@ -1,0 +1,24 @@
+{% extends "donorReq/donor.html"%}
+
+{% block title %}All Donors{% endblock title %}
+
+{% block content %}
+<h1>Donor Detail</h1>
+
+<table class="donor">
+  <tr><td>ID:</td><td>{{donor.id }}</td></tr>
+  <tr><td>Name:</td><td>{{ donor.name }}</td></tr>
+  <tr><td>address:</td><td>{{ donor.address }}</td></tr>
+  <tr><td>hospital:</td><td>{{ donor.hospital }}</td></tr>
+  <tr><td>bloodGrp:</td><td>{{ donor.bloodGrp }}</td></tr>
+  <tr><td>Email:</td><td>{{ donor.email }}</td></tr>
+  <tr><td>phone:</td><td>{{ donor.phone }}</td></tr>
+  <tr><td>Description:</td><td>{{ donor.description }}</td></tr>
+  <tr><td>Req Status:</td><td>{{ donor.get_reqstatus_display }}</td></tr>
+  <tr><td>Priority:</td><td>{{ donor.get_priority_display }}</td></tr>
+  <tr><td>Submit Date:</td><td>{{ donor.submitted|date:"m-d-y" }}</td></tr>
+  <tr><td>Req Date:</td><td>{{ donor.reqdate|date:"m-d-y"|default:"pending" }}</td></tr>
+  <tr><td>Bags:</td><td>{{ donor.bags|default:"--" }}</td></tr> 
+</table>
+<p><a href="../show">Back to donor list</a></p>
+{% endblock content %}
