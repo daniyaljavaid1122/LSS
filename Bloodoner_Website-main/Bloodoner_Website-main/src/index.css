@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  color: white;
+}
+h2 {
+  font-size: 4.4rem;
+  font-weight: 300;
+  white-space: normal;
+  text-align: center;
+  color: black;
+}
+h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+p {
+  opacity: 0.7;
+  font-size: 1.65rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  font-weight: 400;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* Home Page Section */
+.home-page {
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+
+.content-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-heading {
+  width: 45%;
+  margin-right: 50px;
+}
+
+h4 {
+  color: #ff2156;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.home-img-container {
+  height: 400px;
+  width: 50%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.home-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.home-heading p {
+  text-align: justify;
+}
+
+/* DonateBlood page Section */
+
+.main-div {
+  height: 100%;
+  background-color: white;
+}
+
+.main-div h2 {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  color: #ff2156;
+  font-size: large;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+}
+.main-div p {
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 15px;
+  min-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Donation Form  */
+.donation-heading h2 {
+  color: #ff2156;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 5rem 0 2rem;
+  text-align: center;
+}
+
+.donation-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 7rem);
+  background-color: whitesmoke;
+}
+
+.iner-box {
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.iner-box label {
+  color: #ff2156;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.iner-box button {
+  padding: 0.8rem;
+  width: 100px;
+  color: #fff;
+  background-color: #ff2156;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.iner-box button:hover {
+  opacity: 0.9;
+}
+
+.iner-box input {
+  width: 100%;
+  padding: 0.8rem;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.iner-box input:focus {
+  outline: none;
+  border-color: #ff2156;
+}
+
+/* Order Blood form */
+
+.order-heading h2 {
+  color: #ff2156;
+  font-size: large;
+  font-weight: 600;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.order-form {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+/* Find Donors section */
+
+.FindDonors-heading {
+  background-color: white;
+  padding: 5rem 5rem;
+}
+.FindDonors-heading h2 {
+  color: #ff2156;
+  font-size: large;
+  font-weight: 600;
+}
+
+.donor-data {
+  background-color: white;
+  margin: auto;
+  width: 20%;
+  border: 2px solid #ff2156;
+  text-align: center;
+  border-radius: 10px;
+  font-size: large;
+  color: #ff2156;
+}

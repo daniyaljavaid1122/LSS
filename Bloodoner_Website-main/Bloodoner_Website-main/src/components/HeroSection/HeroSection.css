@@ -1,0 +1,24 @@
+.banner {
+  width: 100%;
+  height: 70vh;
+  background: url("/src/img/home.jpeg");
+  background-size: cover;
+}
+
+.banner__text {
+  width: 50%;
+  padding: 10vh 0 0 5vw;
+}
+
+.banner__text h1 {
+  margin-top: 8vh;
+  font-size: 3vw;
+  font-weight: 600;
+}
+
+.banner__text p {
+  font-size: 2vw;
+  font-weight: 500;
+  margin-top: 2vh;
+  color: white;
+}
